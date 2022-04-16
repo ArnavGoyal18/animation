@@ -1,0 +1,21 @@
+h3{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+background-color: royalblue;
+}
+canvas{
+    animation-name: summer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes summer{
+    from{
+        box-shadow: 1px 1px 38px pink;
+        border:5px double purple;
+    }
+        to{
+            box-shadow: 1px 1px 38px purple;
+            border:5px dashed pink;}  
+        }
