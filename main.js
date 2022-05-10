@@ -32,8 +32,8 @@ function modelLoaded() {
 function Getposes(results) {
     if (results.length > 0) {
         console.log(results);
-        MustacheX = results[0].pose.nose.x - 13;
-        MustacheY = results[0].pose.nose.y - 13;
+        NoseX = results[0].pose.nose.x - 13;
+        NoseY = results[0].pose.nose.y - 13;
         console.log("Mustache x = " + NoseX);
         console.log("Mustache y = " + NoseY);
     }
